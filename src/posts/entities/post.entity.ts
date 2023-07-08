@@ -1,5 +1,5 @@
 import { Category } from 'src/category/entities/category.entity';
-import { Column, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
+import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
 
 export enum postStatus {
   DRAFT = 'черновик',
@@ -8,6 +8,7 @@ export enum postStatus {
   DEL = 'удалено',
 }
 
+@Entity('msg_brd_post')
 export class Post {
   @PrimaryGeneratedColumn()
   id: number;
