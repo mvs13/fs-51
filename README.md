@@ -22,9 +22,9 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-# FS-44
+# FS-51
 
 ## Description
 
-- Для разработанных эндпоинтов приложения написать документацию (метод запроса, тело/параметры, заголовки, статус и формат ответа).
+- В разработанное приложение добавить классы валидации полей в POST и PUT запросах.
 - Сделать коммит и пуш, приложить ссылку на репозиторий.
